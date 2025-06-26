@@ -15,7 +15,7 @@ pipeline {
                 checkout([$class: 'GitSCM',
                           branches: [[name: '*/master']],
                           extensions: [],
-                          userRemoteConfigs: [[url: 'https://github.com/sivak243/JenkinsTerraform.git']]])
+                          userRemoteConfigs: [[url: 'https://github.com/Kavya-2697/Jenkins_Terraform.git']]])
             }
         }
 
