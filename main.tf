@@ -44,7 +44,7 @@ resource "aws_security_group" "jenkins-sg-2022" {
 
 resource "aws_instance" "myFirstInstance" {
   ami           = var.ami_id
-  subnet_id = "subnet-0293d4eb6e4bd8b02"
+  subnet_id = "subnet-0101f19214674c83b"
   key_name = var.key_name
   instance_type = var.instance_type
   vpc_security_group_ids = [aws_security_group.jenkins-sg-2022.id]
