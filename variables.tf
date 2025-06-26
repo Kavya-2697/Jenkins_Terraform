@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" { 
     description = "Name of security group" 
-    default     = "sg-0cce0c68906c90505" 
+    default     = "security_sonar_group_2022" 
 }
 
 variable "tag_name" { 
